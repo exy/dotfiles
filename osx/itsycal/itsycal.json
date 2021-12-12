@@ -1,0 +1,19 @@
+{
+    ClockFormat = "EEE dd MMM H:mm:ss";
+    HideIcon = 1;
+    HighlightedDOWs = 65;
+    "NSStatusItem Preferred Position ItsycalStatusItem" = 326;
+    "NSWindow Frame SUUpdateAlert" = "650 497 620 392 0 0 1920 1055 ";
+    PinItsycal = 0;
+    SUHasLaunchedBefore = 1;
+    SULastCheckTime = "2021-12-12 15:02:18 +0000";
+    SUUpdateRelaunchingMarker = 0;
+    SelectedCalendars =     (
+        "606965FE-FBFA-4FDC-A991-8C2526C77ABC"
+    );
+    ShowEventDays = 9;
+    ShowLocation = 1;
+    ShowWeeks = 1;
+    SizePreference = 0;
+    UseOutlineIcon = 0;
+}
