@@ -26,14 +26,6 @@ else
     msg_ok "OK"
 fi
 
-# oh-my-zsh - https://ohmyz.sh
-if which zsh &> /dev/null; then
-    msg_checking "Oh My Zsh"
-else
-    msg_install "Oh My Zsh" "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
-    msg_ok "OK"
-fi
 
 # Homebrew
 if which brew &> /dev/null; then
@@ -41,5 +33,14 @@ if which brew &> /dev/null; then
 else
     msg_install "Homebrew" "/bin/bash -c $(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+    msg_ok "OK"
+fi
+
+# oh-my-zsh - https://ohmyz.sh
+if which zsh &> /dev/null; then
+    msg_checking "Oh My Zsh"
+else
+    msg_install "Oh My Zsh" "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+    sh -c "$(curl -fsSL https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
     msg_ok "OK"
 fi

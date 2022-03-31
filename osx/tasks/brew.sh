@@ -45,6 +45,14 @@ brew tap homebrew/cask-fonts #https://github.com/Homebrew/homebrew-cask-fonts
 brew install --cask font-hack
 brew install --cask font-hack-nerd-font
 brew install --cask font-fira-code
+brew install --cask font-meslo-lg
+brew install --cask font-meslo-lg-nerd-font
+brew install --cask font-meslo-for-powerline
+
+brew install zsh
+brew install zsh-autosuggestions
+brew install zsh-syntax-highlighting
+git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$HOME/.oh-my-zsh/custom}/themes/powerlevel10k
 
 # Install useful packages/binaries
 #brew install cmake
