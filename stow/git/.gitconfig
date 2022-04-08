@@ -23,3 +23,13 @@
 	conflictstyle = diff3
 [pull]
 	ff = yes
+[commit]
+	gpgsign = true
+[gpg]
+	program = gpg
+[alias]
+	a = add
+	b = branch
+	c = commit
+	st = status
+	undo = git reset --soft HEAD^

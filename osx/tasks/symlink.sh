@@ -9,6 +9,7 @@ DOTFILES=(
     "tmux"
     "vim"
     "zsh"
+    "gnupg"
 )
 
 cd $DOTFILE_DIR

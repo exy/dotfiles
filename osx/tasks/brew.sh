@@ -34,6 +34,7 @@ fi;
 
 # Install GnuPG to enable PGP-signing commits.
 brew install gnupg
+brew install pinentry-mac
 
 # Brew Tap (Third-Party Repositories)
 #brew tap homebrew/bundle #https://github.com/Homebrew/homebrew-bundle
