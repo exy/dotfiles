@@ -5,15 +5,7 @@
 	required = true
 [core]
 	excludesfile = ~/.gitignore_global
-	pager = delta
 	autocrlf = input
-[delta]
-	side-by-side = true
-	plus-color = "#012800"
-	minus-color = "#340001"
-	syntax-theme = GitHub
-[interactive]
-	diffFilter = delta --color-only
 [merge]
 	# create a commit for each merge
 	ff = no
